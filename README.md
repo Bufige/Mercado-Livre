@@ -2,7 +2,7 @@
 Web scrapping para pegar dados do mercado livre. É bem simples e direto, fácil de modificar para coletar mais dados.
 
 
-#Explicação da lógica utilizada
+# Explicação da lógica utilizada
 No main.py definimos um link de pesquisa como exemplo. Esse link é padrão do mercado livre para qualquer pesquisa.
 
 Com isso em mente, nos procuramos nesse link os links de todos os produtos na página atual.
@@ -12,11 +12,11 @@ Salvamos esses links num arquivo.
 Agora vem a parte de acessar os links para pegarmos os dados dos items.
 Fazemos isso e em seguida, criamos um arquivo excel e adicionamos os dados encontrados do item na tabela.
 
-#Objetivo
+# Objetivo
 
 Esse é apenas um software de prova de conceito, é possível fazer otimizações nisso. Como? bom, a página do mercado livre não é totalmente dinãmica, cada link proximo tem seu próprio link, logo não é recarregado dentro da própria página. Então, poderiamos fazer um script para pegar esses links e utilizar o beatifulsoup para percorrer elas. Isso otimizaria pois não precisariamos carregar a página inteira no selenium e isso otimizaria muito o programa.
 
-#Instalação
+# Instalação
 
 Basta ter o pip instalado, com isso, é necessário apenas instalar as seguintes bibliotecas:
 pip install openpyxl
@@ -25,4 +25,4 @@ pip install requests
 pip install beautifulsoup4
 
 
-#Feito agora basta fazer: python main.py para rodar !
+# Feito agora basta fazer: python main.py para rodar !
