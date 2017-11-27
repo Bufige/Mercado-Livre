@@ -14,7 +14,7 @@ Fazemos isso e em seguida, criamos um arquivo excel e adicionamos os dados encon
 
 # Objetivo
 
-Esse é apenas um software de prova de conceito, é possível fazer otimizações nisso. Como? bom, a página do mercado livre não é totalmente dinãmica, cada "next_page" tem seu próprio link, logo não é recarregado dentro da própria página. Então, poderiamos fazer um script para pegar esses links e utilizar o beatifulsoup para percorrer elas. Isso otimizaria pois não precisariamos utilizar o selenium nesse projeto. Eu apenas adicionei o selenium apenas como demonstração.
+Esse é apenas um software de prova de conceito, é possível fazer otimizações nisso. Como? bom, a página do mercado livre não é totalmente dinãmica, cada "next_page" tem seu próprio link, logo não é recarregado dentro da própria página. Então, poderiamos fazer um script para pegar esses links e utilizar o beatifulsoup para percorrer elas. Isso otimizaria pois não precisariamos utilizar o selenium nesse projeto. **Eu apenas adicionei o selenium apenas como demonstração**.
 
 
 # Instalação
