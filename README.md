@@ -20,10 +20,10 @@ Esse é apenas um software de prova de conceito, é possível fazer otimizaçõe
 # Instalação
 
 Basta ter o pip instalado, com isso, é necessário apenas instalar as seguintes bibliotecas:
-* > pip install openpyxl
-* > pip install selenium
-* > pip install requests
-* > pip install beautifulsoup4
+* > **pip install openpyxl**
+* > **pip install selenium**
+* > **pip install requests**
+* > **pip install beautifulsoup4**
 
 
 # Feito agora basta fazer: python main.py para rodar !
